@@ -14,7 +14,7 @@ import (
 )
 
 //Important points reg script this is still in development.
-//The purpose of this script is supporting a more dynaic use case IE instead of hardcoding an API key and hard coding org names, it asks that info from the user
+//The purpose of this script is supporting a more dynamic use case IE instead of hardcoding an API key and hard coding org names, that info is requested from the user.
 //Once the user provides that info, the GET request is created. Still working to resolve an encoding issue though.
 
 type Response struct {
